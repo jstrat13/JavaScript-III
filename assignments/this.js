@@ -17,7 +17,12 @@
 // code example for Window Binding
 
 // Principle 2
-
+const jody = {
+    name: 'Jody',
+    speak: function(){
+        return `My name is ${this.name}`
+    }
+}
 // code example for Implicit Binding
 
 // Principle 3
